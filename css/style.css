@@ -1,0 +1,151 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 900 !important;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 800;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  z-index: 2;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(2, 48, 71,0.7), rgb(0,224,254,0.7));
+  z-index: -1;
+}
+
+.bg-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 14px 22px;
+  transition: all 0.3s ease;
+}
+
+.btn-main {
+  background: linear-gradient(to right,#72ddf7, #0d3b66);
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #feeafa;
+  transform: translateY(-5px);
+}
+
+.video-btn {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to right,#72ddf7, #0d3b66);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 100px;
+}
+
+.navbar {
+  box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
+  background: -webkit-linear-gradient(#72ddf7, #0d3b66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-intro {
+  margin-bottom: 40px;
+}
+
+.section-intro .divider {
+  height: 4px;
+  width: 70px;
+  background: linear-gradient(to right,#72ddf7, #0d3b66);
+  margin: 16px auto;
+}
+
+.service .service-img {
+  position: relative;
+}
+
+.service .service-img .icon {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(to right,#72ddf7, #0d3b66);
+  color: #fff;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.service .service-img .icon i {
+  font-size: 36px;
+}
+
+.feature i {
+  background: -webkit-linear-gradient(#72ddf7, #0d3b66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 54px;
+}
+
+.review {
+  box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+}
+
+.review .person {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+  padding-bottom: 18px;
+}
+
+.review .person img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+}
+
+.review .stars {
+  color: orange;
+  
+}
